@@ -171,6 +171,7 @@ p {
 .footer a {
   display: block;
   margin-top: 10px;
+  color: inherit;
   text-decoration: none;
   text-transform: capitalize;
 }

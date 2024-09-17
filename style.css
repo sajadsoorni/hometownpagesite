@@ -76,7 +76,7 @@ body {
 }
 
 .img-header {
-  width: 100%;
+  max-width: 120rem;
   border-bottom: 5px solid rgb(255, 157, 0);
 }
 

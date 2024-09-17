@@ -1,9 +1,8 @@
 /* *********************
   BELLOW 1280px (Smaller desktops)
 ********************* */
-@media (max-width: 37.5em) {
+@media (max-width: 24.31em) {
   .container {
-    max-width: 60rem;
   }
   .grid--2 {
     display: grid;
@@ -17,9 +16,16 @@
     height: 8rem;
   }
   .tools {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-    padding: 2rem 10rem;
+  }
+  .header {
+  }
+  .setion-hero {
+    display: none;
+  }
+
+  .img-header {
+    display: none;
   }
 }

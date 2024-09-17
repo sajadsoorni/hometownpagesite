@@ -175,16 +175,30 @@ body {
 .post-items {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.075);
   transition: all 0.4s;
-  cursor: pointer;
 }
 
 .post-items:hover {
-  transform: translateY(-1rem);
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.075);
 }
 
 .text-post {
   padding: 0 1rem;
+}
+
+.more-btn {
+  background-color: white;
+  padding: 1rem 2.5rem;
+  margin: 2rem 1rem;
+  border: 1px solid #5a5f69;
+  color: #5a5f69;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.075);
+  transition: all 0.4s;
+}
+
+.more-btn:hover {
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+  border: 1px solid rgb(255, 157, 0);
 }
 
 .footer {

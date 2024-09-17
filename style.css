@@ -42,15 +42,16 @@ body {
   height: 30rem;
   color: aliceblue;
   font-size: 2rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  flex-direction: column;
+  background-color: red;
 }
 
 .map-btn {
   padding: 1rem 3rem;
-  margin-top: 4rem;
   background-color: rgba(255, 255, 255, 0.074);
   border: 1px solid white;
   color: white;

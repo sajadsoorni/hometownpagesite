@@ -1,6 +1,34 @@
 /* *********************
   BELLOW 1280px (Smaller desktops)
 ********************* */
+@media (max-width: 75em) {
+  .container {
+    max-width: 100%;
+  }
+
+  .setion-hero {
+    width: 100%;
+  }
+
+  .img-header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 48em) {
+  .grid--2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5em;
+  }
+  .title-header {
+    padding-left: 0;
+    border-left: none;
+    border-bottom: solid 5px #2f3542;
+    height: 8rem;
+  }
+}
+
 @media (max-width: 24.31em) {
   .grid--2 {
     display: grid;

@@ -12,6 +12,7 @@ body {
   /* background: linear-gradient(#cfdef3, #f2f4f9); */
   background-repeat: no-repeat;
   color: #2f3542;
+  overflow-x: hidden;
 }
 
 .setion-hero {
@@ -77,6 +78,7 @@ body {
 .img-header {
   max-width: 120rem;
   border-bottom: 5px solid rgb(255, 157, 0);
+  overflow: hidden;
 }
 
 .grid--2 {
@@ -114,6 +116,7 @@ body {
   grid-template-columns: repeat(12, 1fr);
   column-gap: 2rem;
   padding: 0 3rem;
+  overflow-x: hidden;
 }
 
 .btn-icon {

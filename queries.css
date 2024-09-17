@@ -80,7 +80,7 @@
 @media (max-width: 28.62em) {
   .tools {
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 0;

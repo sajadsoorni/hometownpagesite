@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  /* width: 1150px; */
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   background: linear-gradient(#cfdef3, #f2f4f9);
@@ -54,7 +53,7 @@ body {
 }
 
 .container {
-  width: 128rem;
+  max-width: 128rem;
   margin: 0 auto;
   /* background-color: red; */
 }
@@ -130,7 +129,7 @@ p {
   display: flex;
   column-gap: 3rem;
   justify-content: space-around;
-  background: linear-gradient(cfdef3, white);
+  background: linear-gradient(#cfdef3, white);
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.075);
   height: 20rem;
   padding: 3rem 4rem;

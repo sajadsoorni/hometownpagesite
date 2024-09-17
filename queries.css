@@ -1,0 +1,26 @@
+/* *********************
+  BELLOW 1280px (Smaller desktops)
+********************* */
+@media (max-width: 80em) {
+  .hero {
+    /* display: none; */
+    padding: 0;
+    max-width: 128rem;
+    height: 30rem;
+    background-size: cover;
+  }
+  .nav-btn {
+    padding: 2rem 5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0.2rem solid white;
+    color: white;
+    font-size: 2rem;
+    transition: all 0.5s;
+    text-shadow: 0.5rem 0.5rem 0.5rem black;
+  }
+
+  #image-title {
+    padding-top: 4rem;
+    font-size: 3rem;
+  }
+}

@@ -194,7 +194,6 @@ body {
   align-items: start;
   column-gap: 3rem;
   padding: 3rem 2rem;
-  text-transform: capitalize;
   border: 1px solid #eaf0fe;
 }
 
@@ -228,6 +227,7 @@ body {
 .footer h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 .footer a {
@@ -239,12 +239,6 @@ body {
   padding-left: 2rem;
   border-left: 1px solid #eaf0fe;
   height: 15rem;
-}
-
-.social-icon {
-  height: 2.4rem;
-  width: 2.4rem;
-  color: #2f3542;
 }
 
 .footer-span {

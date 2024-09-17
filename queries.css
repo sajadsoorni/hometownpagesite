@@ -16,6 +16,7 @@
 
   .title-header {
     padding: 0 2rem;
+    margin: 0 2rem;
   }
 
   .title-text {
@@ -29,6 +30,9 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
+  }
+  .post-items {
+    padding: 0 2rem;
   }
 }
 
@@ -56,6 +60,9 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
+  }
+  .post-items {
+    padding: 0 2rem;
   }
 }
 
@@ -101,6 +108,9 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
+  }
+  .post-items {
+    padding: 0 2rem;
   }
 }
 
@@ -152,6 +162,9 @@
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
+  .post-items {
+    padding: 0 2rem;
+  }
 }
 
 @media (max-width: 26.875em) {
@@ -202,5 +215,9 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
+  }
+
+  .post-items {
+    padding: 0 2rem;
   }
 }

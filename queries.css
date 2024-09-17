@@ -38,7 +38,6 @@
 
 @media (max-width: 48em) {
   .grid--2 {
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 1.5em;
   }
@@ -56,7 +55,6 @@
   }
   .post-container {
     max-width: 100%;
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
@@ -80,7 +78,6 @@
 
 @media (max-width: 24.31em) {
   .grid--2 {
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 1.5em;
   }
@@ -106,7 +103,6 @@
 
   .btn-icon img {
     width: 1.8rem;
-    transition: all 0.4s;
   }
 
   .btn-icon {
@@ -116,7 +112,6 @@
   }
   .post-container {
     max-width: 100%;
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
@@ -127,7 +122,6 @@
 
 @media (max-width: 25.875em) {
   .grid--2 {
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 1.5em;
   }
@@ -158,7 +152,6 @@
 
   .btn-icon img {
     width: 1.9rem;
-    transition: all 0.4s;
   }
 
   .btn-icon {
@@ -169,7 +162,6 @@
   }
   .post-container {
     max-width: 100%;
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
@@ -180,7 +172,6 @@
 
 @media (max-width: 26.875em) {
   .grid--2 {
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 1.5em;
   }
@@ -211,7 +202,6 @@
 
   .btn-icon img {
     width: 2rem;
-    transition: all 0.4s;
   }
 
   .btn-icon {
@@ -222,7 +212,6 @@
   }
   .post-container {
     max-width: 100%;
-    display: grid;
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }

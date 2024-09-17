@@ -110,10 +110,10 @@ body {
 }
 
 .tools {
-  display: flex;
   width: 25%;
-  justify-content: space-around;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
   padding-left: 2rem;
 }
 

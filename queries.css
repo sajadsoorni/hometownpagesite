@@ -53,7 +53,6 @@
     border-left: none;
     border-bottom: solid 5px #2f3542;
     height: 8rem;
-    padding: 0 2rem;
   }
   .post-container {
     max-width: 100%;
@@ -113,7 +112,6 @@
   .btn-icon {
     padding: 0.5rem 1.2rem;
     column-gap: 0.1rem;
-
     font-size: 1.4rem;
   }
   .post-container {
@@ -191,7 +189,6 @@
     border-left: none;
     border-bottom: solid 5px #2f3542;
     height: 8rem;
-    padding: 0 2rem;
   }
 
   .title-text {

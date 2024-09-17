@@ -51,28 +51,28 @@
 
   .tools {
     margin: 0 auto;
-    width: 60%;
+    width: 65%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
+    column-gap: 1rem;
     padding-left: 0;
   }
 
   .btn-icon {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 0.5rem;
+    column-gap: 1rem;
     justify-content: center;
     align-items: center;
     border: 1px solid #2f3542;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     cursor: pointer;
     transition: all 0.4s;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   }
   .btn-icon img {
-    width: 1.2rem;
+    width: 1.5rem;
   }
 }

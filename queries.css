@@ -34,9 +34,6 @@
   .post-items {
     padding: 0 2rem;
   }
-  .footer {
-    grid-template-columns: auto 2fr auto;
-  }
 }
 
 @media (max-width: 48em) {

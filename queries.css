@@ -1,7 +1,7 @@
 /* *********************
   BELLOW 1280px (Smaller desktops)
 ********************* */
-@media (max-width: 37em) {
+@media (max-width: 37.5em) {
   .grid--2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -12,5 +12,19 @@
     border-left: none;
     border-bottom: solid 5px #2f3542;
     height: 8rem;
+  }
+
+  .container {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  .tools {
+    margin: 0 auto;
+    width: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    padding-left: 0;
   }
 }

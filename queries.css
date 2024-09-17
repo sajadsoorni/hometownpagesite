@@ -77,17 +77,6 @@
     height: auto;
     padding-top: 2rem;
   }
-
-  .footer-logo-icons {
-    grid-template-columns: 1fr;
-    row-gap: 2rem;
-    justify-items: center;
-    align-items: center;
-  }
-  .footer-icons {
-    display: flex;
-    gap: 2rem;
-  }
 }
 
 @media (max-width: 24.31em) {

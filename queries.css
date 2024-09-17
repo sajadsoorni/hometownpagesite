@@ -13,10 +13,10 @@
     border-bottom: solid 5px #2f3542;
     height: 8rem;
   }
-  .tools {
+  /* .tools {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     padding: 2rem 10rem;
-  }
+  } */
 }

@@ -147,7 +147,67 @@
           </div>
         </div>
       </div>
+      <div class="lucky-section">
+        <h1>
+          Get a 60% discount on our exclusive Sanandaj tour this March 2025!
+        </h1>
+        <div class="how-to">
+          <h2>1.Select Your Numbers</h2>
+          <p>
+            Choose up to 5 numbers from the available options. You can highlight
+            your selected numbers by clicking on them. If you wish to deselect a
+            number, simply click it again.
+          </p>
+          <h2>1.Select Your Numbers</h2>
+          <p>
+            Choose up to 5 numbers from the available options. You can highlight
+            your selected numbers by clicking on them. If you wish to deselect a
+            number, simply click it again.
+          </p>
+        </div>
 
+        <div class="number-list">
+          <span class="number-item" onclick="highlightNumber(this)">1</span>
+          <span class="number-item" onclick="highlightNumber(this)">2</span>
+          <span class="number-item" onclick="highlightNumber(this)">3</span>
+          <span class="number-item" onclick="highlightNumber(this)">4</span>
+          <span class="number-item" onclick="highlightNumber(this)">6</span>
+          <span class="number-item" onclick="highlightNumber(this)">7</span>
+          <span class="number-item" onclick="highlightNumber(this)">8</span>
+          <span class="number-item" onclick="highlightNumber(this)">9</span>
+          <span class="number-item" onclick="highlightNumber(this)">10</span>
+        </div>
+        <div class="show-number">
+          <h2>Your selected number :</h2>
+          <p><span id="selectedNumber1" class="show--number"></span></p>
+          <p><span id="selectedNumber2" class="show--number"></span></p>
+          <p><span id="selectedNumber3" class="show--number"></span></p>
+          <p><span id="selectedNumber4" class="show--number"></span></p>
+          <p><span id="selectedNumber5" class="show--number"></span></p>
+        </div>
+        <div class="show-number">
+          <h2>The Drwa's Numbers :</h2>
+          <p><span id="darwNumber1" class="show--number"></span></p>
+          <p><span id="darwNumber2" class="show--number"></span></p>
+          <p><span id="darwNumber3" class="show--number"></span></p>
+          <p><span id="darwNumber4" class="show--number"></span></p>
+          <p><span id="darwNumber5" class="show--number"></span></p>
+        </div>
+
+        <div id="popup">
+          <div class="popup-content">
+            <div class="popup-message" id="popup-message">
+              Your message here
+            </div>
+            <button id="close-popup">OK</button>
+          </div>
+        </div>
+
+        <div>
+          <button id="btn-draw" class="btn">Draw</button>
+          <button id="btn-restart" class="btn">Restart Draw</button>
+        </div>
+      </div>
       <div class="footer">
         <div class="footer-logo-icons">
           <a href="https://hometownpage-sajadsoornisofla.netlify.app/">
@@ -198,4 +258,6 @@
       </div>
     </div>
   </body>
+
+  <script src="myscripts.js"></script>
 </html>

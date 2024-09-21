@@ -74,6 +74,14 @@
     height: auto;
     padding-top: 2rem;
   }
+  .lucky-section {
+    justify-items: center;
+  }
+  .number-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+  }
 }
 
 @media (max-width: 24.31em) {

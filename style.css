@@ -262,34 +262,49 @@ body {
 
 .lucky-section {
   display: grid;
-  padding: 2rem;
-  row-gap: 2rem;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  justify-items: center;
+  padding: 2rem 3rem 4rem;
+  grid-template-rows: 1fr 4fr 2fr;
+  justify-items: start;
   align-items: center;
+  background: linear-gradient(#222f3e, #444e5c);
+  color: white;
+  row-gap: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.075);
+  transition: all 0.4s;
 }
 .lucky-section h1 {
+  text-align: center;
+  line-height: 1.9;
   font-size: 3rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(45deg, #736ed2, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .number-list {
   display: inline;
-  border: 1px solid #5a5f69;
-  margin: 0 auto;
+  border: 1px solid #ffffff;
+
   padding: 1rem 2rem;
 }
 .how-to {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  justify-content: space-around;
-  justify-items: center;
-  row-gap: 2rem;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  row-gap: 1rem;
 }
 
 .how-to p {
   line-height: 1.9;
   font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #feca57;
+}
+
+.how-to h2 {
+  font-size: 2rem;
 }
 
 .number-item {
@@ -302,18 +317,18 @@ body {
   border-radius: 0.3rem;
   transition: all 0.3s;
   font-size: 2rem;
-  width: 3rem; /* Set a fixed width */
-  height: 3rem; /* Set a fixed height */
-  background-color: #9599a1;
+  width: 3rem;
+  height: 3rem;
+  background-color: #01a3a4;
   color: #eaf0fe;
 }
 
 .number-item:hover {
-  background-color: #434c60;
+  background-color: #feca57;
 }
 
 .number-item.highlight {
-  background-color: rgb(255, 157, 0); /* Selected effect */
+  background-color: #ff6b6b;
 }
 
 .highlight {
@@ -322,19 +337,24 @@ body {
 }
 
 .show-number {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  justify-content: space-around;
-  justify-items: center;
+  justify-items: start;
   align-items: center;
 }
+
+.spans {
+  display: flex;
+  justify-items: start;
+}
+
 .show--number {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 1rem; /* Set a fixed width */
-  height: 1rem; /* Set a fixed height */
-  margin: 1rem;
+  width: 1rem;
+  height: 1rem;
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
@@ -344,14 +364,14 @@ body {
 
 .show--number.hidden {
   opacity: 0; /* Fade out */
-  transform: translateY(-20px) scale(1.2); /* Slide up and grow */
-  color: #ff4081; /* Change color during fade out */
+  transform: translateY(-20px) scale(1.2);
+  color: #ff4081;
 }
 
 .show--number.visible {
   opacity: 1; /* Fade in */
-  transform: translateY(0) scale(1); /* Reset position and scale */
-  color: #000; /* Reset color */
+  transform: translateY(0) scale(1);
+  /color: #ffffff;
 }
 
 .btn {
@@ -361,7 +381,6 @@ body {
   font-weight: bold;
   font-size: 2rem;
   color: #5a5f69;
-  box-shadow: 1px 2px 4px #898989;
   cursor: pointer;
   margin-right: 1rem;
 }

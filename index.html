@@ -152,17 +152,33 @@
           Get a 60% discount on our exclusive Sanandaj tour this March 2025!
         </h1>
         <div class="how-to">
-          <h2>1.Select Your Numbers</h2>
+          <h2>1. Select Your Numbers</h2>
+          <p>
+            Choose 5 numbers from the available options. You can highlight your
+            selected numbers by clicking on them. If you wish to deselect a
+            number, simply click it again.
+          </p>
+          <h2>2. Draw Your Numbers:</h2>
           <p>
             Choose up to 5 numbers from the available options. You can highlight
             your selected numbers by clicking on them. If you wish to deselect a
             number, simply click it again.
           </p>
-          <h2>1.Select Your Numbers</h2>
+          <h2>3. Check for Matches:</h2>
           <p>
-            Choose up to 5 numbers from the available options. You can highlight
-            your selected numbers by clicking on them. If you wish to deselect a
-            number, simply click it again.
+            After the draw, the system will highlight any matching numbers you
+            selected. The more matches you have, the better your chances of
+            winning !
+          </p>
+          <h2>4. Celebrate Your Wins :</h2>
+          <p>
+            If you have 3 or more matching numbers, you’ll receive a
+            congratulatory message!
+          </p>
+          <h2>5. Reset and Try Again:</h2>
+          <p>
+            After each draw, you can reset the game to select new numbers and
+            try your luck again!
           </p>
         </div>
 
@@ -171,6 +187,7 @@
           <span class="number-item" onclick="highlightNumber(this)">2</span>
           <span class="number-item" onclick="highlightNumber(this)">3</span>
           <span class="number-item" onclick="highlightNumber(this)">4</span>
+          <span class="number-item" onclick="highlightNumber(this)">5</span>
           <span class="number-item" onclick="highlightNumber(this)">6</span>
           <span class="number-item" onclick="highlightNumber(this)">7</span>
           <span class="number-item" onclick="highlightNumber(this)">8</span>
@@ -179,19 +196,23 @@
         </div>
         <div class="show-number">
           <h2>Your selected number :</h2>
-          <p><span id="selectedNumber1" class="show--number"></span></p>
-          <p><span id="selectedNumber2" class="show--number"></span></p>
-          <p><span id="selectedNumber3" class="show--number"></span></p>
-          <p><span id="selectedNumber4" class="show--number"></span></p>
-          <p><span id="selectedNumber5" class="show--number"></span></p>
+          <div class="spans">
+            <p><span id="selectedNumber1" class="show--number"></span></p>
+            <p><span id="selectedNumber2" class="show--number"></span></p>
+            <p><span id="selectedNumber3" class="show--number"></span></p>
+            <p><span id="selectedNumber4" class="show--number"></span></p>
+            <p><span id="selectedNumber5" class="show--number"></span></p>
+          </div>
         </div>
         <div class="show-number">
           <h2>The Drwa's Numbers :</h2>
-          <p><span id="darwNumber1" class="show--number"></span></p>
-          <p><span id="darwNumber2" class="show--number"></span></p>
-          <p><span id="darwNumber3" class="show--number"></span></p>
-          <p><span id="darwNumber4" class="show--number"></span></p>
-          <p><span id="darwNumber5" class="show--number"></span></p>
+          <div class="spans">
+            <p><span id="darwNumber1" class="show--number"></span></p>
+            <p><span id="darwNumber2" class="show--number"></span></p>
+            <p><span id="darwNumber3" class="show--number"></span></p>
+            <p><span id="darwNumber4" class="show--number"></span></p>
+            <p><span id="darwNumber5" class="show--number"></span></p>
+          </div>
         </div>
 
         <div id="popup">

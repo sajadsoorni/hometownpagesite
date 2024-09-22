@@ -83,9 +83,19 @@
     gap: 0.5rem;
   }
 
-  .show-number h2 {
-    font-size: 1.2rem;
-    text-align: center;
+  .show-number {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 1rem 1rem;
+    background-color: white;
+    border: 1px solid #5a5f69;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #5a5f69;
+    cursor: pointer;
+    margin-right: 0.3rem;
   }
 }
 

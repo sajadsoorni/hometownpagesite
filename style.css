@@ -263,7 +263,7 @@ body {
 .lucky-section {
   display: grid;
   padding: 2rem 3rem 4rem;
-  grid-template-rows: 1fr 4fr 2fr;
+  grid-template-rows: 1fr;
   justify-items: start;
   align-items: center;
   background: linear-gradient(#222f3e, #444e5c);
@@ -273,10 +273,11 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.075);
   transition: all 0.4s;
 }
+
 .lucky-section h1 {
   text-align: center;
   line-height: 1.9;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   background: -webkit-linear-gradient(45deg, #736ed2, #00ff95 80%);
   -webkit-background-clip: text;
@@ -300,7 +301,7 @@ body {
   line-height: 1.9;
   font-size: 1.4rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px dashed #feca57;
+  border-bottom: 1px dashed #fec9575c;
 }
 
 .how-to h2 {
@@ -321,6 +322,7 @@ body {
   height: 3rem;
   background-color: #01a3a4;
   color: #eaf0fe;
+  border: 1px dashed #222f3e00;
 }
 
 .number-item:hover {
@@ -329,6 +331,7 @@ body {
 
 .number-item.highlight {
   background-color: #ff6b6b;
+  border: 1px dashed #feca57;
 }
 
 .highlight {

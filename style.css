@@ -347,6 +347,7 @@ body {
 .spans {
   display: flex;
   justify-items: start;
+  gap: 1rem;
 }
 
 .show--number {

@@ -77,6 +77,10 @@
   .lucky-section {
     justify-items: center;
   }
+  .lucky-section h1 {
+    font-size: 3.8rem;
+  }
+
   .number-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -284,12 +284,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.number-list {
-  display: inline;
-  border: 1px solid #ffffff;
-
-  padding: 1rem 2rem;
-}
 .how-to {
   display: grid;
   grid-template-columns: 1fr;
@@ -306,6 +300,21 @@ body {
 
 .how-to h2 {
   font-size: 2rem;
+}
+
+.number-list {
+  display: inline;
+  border: 1px dashed #fec9575c;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
+}
+
+.info {
+  display: flex;
+  background-color: #576574;
+  border-radius: 0.3rem;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
 }
 
 .number-item {
@@ -347,6 +356,11 @@ body {
   align-items: center;
 }
 
+.show-number h2 {
+  padding-left: 1rem;
+  border-left: 0.5rem solid white;
+}
+
 .spans {
   display: flex;
   justify-items: start;
@@ -362,20 +376,8 @@ body {
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
-  border: 1px dashed #c5c9d0;
-  transition: opacity 0.5s ease, transform 0.5s ease, color 0.5s ease; /* Fade, slide, and color change */
-}
-
-.show--number.hidden {
-  opacity: 0; /* Fade out */
-  transform: translateY(-20px) scale(1.2);
-  color: #ff4081;
-}
-
-.show--number.visible {
-  opacity: 1; /* Fade in */
-  transform: translateY(0) scale(1);
-  /color: #ffffff;
+  border: 1px dashed #c5c9d078;
+  border-radius: 0.3rem;
 }
 
 .btn {
@@ -393,55 +395,18 @@ body {
   box-shadow: 1px 1px 3px #898989;
 }
 
-/************ Popup Background ************/
-
-#popup {
+#btn-draw {
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
-.popup-content {
-  background-color: white;
-  border-radius: 8px;
-  padding: 3rem 2rem;
-  width: 400px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.success {
+  color: #1dd1a1;
 }
 
-.popup-message {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1rem;
-  font-size: 1.6rem;
-  color: #333;
-  width: 100%;
-  text-align: center;
+.warning {
+  color: #feca57;
 }
 
-#close-popup {
-  background-color: rgb(255, 157, 0);
+.default {
   color: white;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  font-size: 1.5rem;
-  border-radius: 0.3rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  margin-top: 1rem;
-}
-
-#close-popup:hover {
-  background-color: rgb(255, 157, 0);
 }

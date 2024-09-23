@@ -310,7 +310,7 @@ body {
 }
 
 .info {
-  display: flex;
+  display: grid;
   background-color: #576574;
   border-radius: 0.3rem;
   padding: 3rem 2rem;

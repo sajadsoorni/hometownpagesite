@@ -9,7 +9,6 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  /* background: linear-gradient(#cfdef3, #f2f4f9); */
   background-repeat: no-repeat;
   color: #5a5f69;
 }
@@ -17,12 +16,6 @@ body {
 .setion-hero {
   max-width: 120rem;
   margin: 0 auto;
-  background: rgb(52, 44, 33);
-  background: rgb(52, 44, 33);
-  background: rgb(52, 44, 33);
-  background: rgb(52, 44, 33);
-  background: rgb(52, 44, 33);
-  background: rgb(52, 44, 33);
   background: linear-gradient(
     90deg,
     rgba(52, 44, 33, 1) 0%,
